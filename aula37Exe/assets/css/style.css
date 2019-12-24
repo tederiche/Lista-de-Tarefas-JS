@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+:root{
+    --primary-color: rgb(44, 73, 167);
+    --primary-color-darker: rgb(21, 39, 99);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+.input-tarefa{
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(163, 163, 163);
+    font-size: 15px
+}
+
+.btn-tarefa, .apagar{
+    background-color: rgb(47, 4, 240);
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(107, 181, 250);
+}
+
+.apagar{
+    background: red;
+    color: black;
+    padding: 5px;
+    margin: 3px
+}
+.titulo{
+    margin-left: 33%;
+    color: rgb(21, 119, 50);
+}
+ul li{
+    list-style: decimal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
